@@ -1,8 +1,8 @@
-                      **E-Commerce Purchase Funnel Analysis**
+                                            **E-Commerce Purchase Funnel Analysis**
 
 Analysis of 2.7M+ user behavior events from a cosmetics e-commerce store to identify purchase funnel drop-off points, conversion patterns, and revenue opportunities.
 
- [View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/lalitha.haripriya.putrevu/viz/Funnelanalysis_17777617573710/FunnelAnalysisDashboard)
+  [View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/lalitha.haripriya.putrevu/viz/Funnelanalysis_17777617573710/FunnelAnalysisDashboard)
 
 ##  Business Problem
 
@@ -13,24 +13,24 @@ This project maps the complete purchase funnel from product view to cart to purc
 
 ## Key Findings
 
- 1  **Only 10% of product views converted to purchases** — 90% of potential customers dropped off before buying |
- 2  **Apparel.glove had the highest conversion rate at 44.22%** — nearly 2x higher than stationery.cartridge (24.27%) |
- 3  **Peak purchase hour is 12pm (noon)** with 17,500+ transactions — ideal time for promotions and campaigns |
- 4  **Furniture categories had the highest cart abandonment** at 60%+ — representing the biggest revenue recovery opportunity |
- 5  **Stationery drove the highest total revenue** despite not having the top conversion rate — higher average order value |
- 6  **Low-priced products (under $20) had the highest conversion rates** — price is a significant purchase barrier above $50 |
+ 1.  **Only 10% of product views converted to purchases** — 90% of potential customers dropped off before buying  
+ 2. **Apparel.glove had the highest conversion rate at 44.22%** — nearly 2x higher than stationery.cartridge (24.27%)   
+ 3. **Peak purchase hour is 12pm (noon)** with 17,500+ transactions — ideal time for promotions and campaigns   
+ 4.  **Furniture categories had the highest cart abandonment** at 60%+ — representing the biggest revenue recovery opportunity
+ 5. **Stationery drove the highest total revenue** despite not having the top conversion rate — higher average order value 
+ 6.  **Low-priced products (under $20) had the highest conversion rates** — price is a significant purchase barrier above $50 
 
 ## Funnel Breakdown
-  View | 2,037,608 |
-  Cart | 1,148,323 | 43.6% dropped |
-  Remove from Cart | 815,024 | 
-  Purchase | 263,797 | 87.1% dropped from view |
+  View | 2,037,608   
+  Cart | 1,148,323 | 43.6% dropped   
+  Remove from Cart | 815,024    
+  Purchase | 263,797 | 87.1% dropped from view 
 
 ##  Tools Used
-| Python (Pandas, NumPy) | Data cleaning & exploratory analysis |
-| SQL (SQLite) | Funnel queries & aggregations |
-| Tableau Public | Interactive dashboard & visualizations |
-| GitHub | Version control & portfolio |
+| Python (Pandas, NumPy) | Data cleaning & exploratory analysis   
+| SQL (SQLite) | Funnel queries & aggregations   
+| Tableau Public | Interactive dashboard & visualizations   
+| GitHub | Version control & portfolio   
 
 ##  Analysis Breakdown
 
@@ -47,7 +47,6 @@ This project maps the complete purchase funnel from product view to cart to purc
 
 ### 3. Cart Abandonment Analysis
 - Furniture categories had **60%+ abandonment rate**
-- Accessories.cosmetic_bag had high abandonment
 - Appliances had the lowest abandonment rate
 
 ### 4. Revenue Analysis
@@ -67,7 +66,7 @@ This project maps the complete purchase funnel from product view to cart to purc
 
 ##  Dataset
 
-- **Source:** Kaggle — eCommerce Events History in Cosmetics Shop
+- **Source:** Kaggle - eCommerce Events History in Cosmetics Shop
 - **Size:** 2.7M+ rows, 9 columns
-- **Period:** January – February 2020
+- **Period:** January - February 2020
 - **Events tracked:** view, cart, remove_from_cart, purchase
